@@ -19,7 +19,7 @@
 		<tr><input type="text" readonly="readonly" value="<%= emp.getEmpNo()%>"> </tr>
 		<tr><input type="text" readonly="readonly" value="<%= emp.getEmpName()%>"></tr>
 		<tr><input type="text" readonly="readonly" value="<%= emp.getEmpCity()%>"></tr>
+		<input type="button"/>
 	</table>
-	<a>Hello</a>
 </body>
 </html>
