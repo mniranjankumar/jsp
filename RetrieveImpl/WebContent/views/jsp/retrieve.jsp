@@ -16,10 +16,11 @@
 	%>
 	<b>This is Retrieve page</b>
 	<table>
-		<tr><input type="text" readonly="readonly" value="<%= emp.getEmpNo()%>"> </tr>
-		<tr><input type="text" readonly="readonly" value="<%= emp.getEmpName()%>"></tr>
+		<tr>Employee No<input type="text" readonly="readonly" value="<%= emp.getEmpNo()%>"> </tr>
+		<tr>Employee Name<input type="text" readonly="readonly" value="<%= emp.getEmpName()%>"></tr>
 		<tr><input type="text" readonly="readonly" value="<%= emp.getEmpCity()%>"></tr>
-		<input type="button"/>
+		<input type="button"/><br />
+		
 	</table>
 </body>
 </html>
